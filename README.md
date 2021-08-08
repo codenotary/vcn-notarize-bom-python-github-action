@@ -1,7 +1,5 @@
 # vcn-notarize-bom-python-github-action
 
-GitHub action that uses the vcn tool from CodeNotary.com to generate and notarize the bill of materials (BoM) for Python (C# and Visual Basic) projects.
-
 GitHub action that uses the **[vcn](https://github.com/codenotary/vcn)** tool from CodeNotary.com to generate and notarize the bill of materials (BoM) for Python projects. It supports [Pipenv](https://pipenv.pypa.io), [Poetry](https://python-poetry.org) and [pip](https://pypi.org/project/pip/) projects: it accepts _**Pipfile.lock**_, _**poetry.lock**_ or _**requirements.txt**_ files (or directories containing such files) as input.
 
 ## How to use it
